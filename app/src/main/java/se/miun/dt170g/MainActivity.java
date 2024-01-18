@@ -3,6 +3,7 @@ package se.miun.dt170g;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 import retrofit2.Retrofit;
 
@@ -15,5 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onClick(View v){
+
+    }
 
 }
