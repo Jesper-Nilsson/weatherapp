@@ -10,50 +10,52 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView tvTemperature, tvWindSpeed, tvCloudiness, tvPrecipitation;
-    ImageView imageView = (ImageView) findViewById(R.id.ivCloud);
-
+    private ImageView imageView;
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-// ivCloud
+
+        // Initialize TextViews, ImageView, and Button
         tvTemperature = findViewById(R.id.tvTemperature);
         tvWindSpeed = findViewById(R.id.tvWindSpeed);
         tvCloudiness = findViewById(R.id.tvCloudiness);
-
         tvPrecipitation = findViewById(R.id.tvPrecipitation);
-        button.findViewById(R.id.btnRefresh);
+        imageView = findViewById(R.id.ivCloud); // Correct initialization of ImageView
+        button = findViewById(R.id.btnRefresh); // Correct initialization of Button
 
         fetchWeatherData();
     }
 
     private void fetchWeatherData() {
+        // Example static values for debugging
         double staticTemperature = 15.2;
         double staticWindSpeed = 5.5;
         String staticWindDirection = "NE";
         double staticCloudiness = 65.3;
         Pair<Double, Double> staticPrecipitation = new Pair<>(1.2, 3.4);
 
+        // Example of setting an image based on a condition
         String imageName = "clearsky_day"; // The name of the image, without extension
         int resourceId = getResources().getIdentifier(imageName, "drawable", getPackageName());
         if (resourceId != 0) { // 0 means no resource found
             imageView.setImageResource(resourceId);
         } else {
             // Handle the case where the resource is not found
-
+            // For example, set a default image
+            imageView.setImageResource(R.drawable.fog); // Replace with your default image
         }
 
+        // Set texts of TextViews
         tvTemperature.setText(getString(R.string.temperature_value, staticTemperature));
         tvWindSpeed.setText(getString(R.string.windspeed_value, staticWindSpeed, staticWindDirection));
         tvCloudiness.setText(getString(R.string.cloudiness_value, staticCloudiness));
         tvPrecipitation.setText(getString(R.string.precipitation_value, staticPrecipitation.first, staticPrecipitation.second));
-
-
-
     }
 }
+
 
 
 /*
