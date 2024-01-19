@@ -23,12 +23,13 @@ public class WeatherApiFetcher {
         this.url = url;
         this.weatherListener = listener;
     }
-    public interface WeatherListener {
+    public static interface WeatherListener {
         void onWeatherFetched(Weather weather);
         void onWeatherFetchFailed(Exception e);
     }
 
-    public void fetchAndParseWeatherData(String urlString) {
+    public void fetchAndParseWeatherData() {
+        String urlString = this.url;
         new Thread(() -> {
             HttpURLConnection connection = null;
             InputStream stream = null;
