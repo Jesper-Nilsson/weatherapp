@@ -34,6 +34,13 @@ public class WeatherApiFetcher {
 
                     // Assuming 'Log' and 'Weather' classes are defined and working
                     Log.d("WeatherData", "Wind Direction: " + weather.getWindDirection());
+                    Log.d("WeatherData", "temprature: " + weather.getTemperature());
+                    Log.d("WeatherData", "Wind spped: " + weather.getWindSpeed());
+                    Log.d("WeatherData", "cloudiness: " + weather.getCloudiness());
+                    Log.d("WeatherData", "symbol: " + weather.getSymbol());
+                    Log.d("WeatherData", "rain min: " + weather.getPrecipitation().first);
+                    Log.d("WeatherData", "rain max: " + weather.getPrecipitation().second);
+                    Log.d("WeatherData", "symbol: " + weather.getSymbol());
                     // Update UI with weather object (on the main thread)
                 } else {
                     Log.e("WeatherData", "HTTP error response: " + responseCode);
@@ -91,7 +98,7 @@ public class WeatherApiFetcher {
                                 weather.setCloudiness(Double.parseDouble(parser.getAttributeValue(null, "percent")));
                                 break;
                         }
-                    } else if (forecastCounter == 3) { // Third <time> element with forecast
+                    } else if (forecastCounter == 2) { // Third <time> element with forecast
                         switch (tagName) {
                             case "precipitation":
                                 double precipitationValue = Double.parseDouble(parser.getAttributeValue(null, "value"));

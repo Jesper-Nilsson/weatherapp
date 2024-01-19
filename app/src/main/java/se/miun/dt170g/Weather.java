@@ -11,6 +11,10 @@ public class Weather {
     private double cloudiness;
     private Pair<Double, Double> precipitation;
 
+    public String getSymbol() {
+        return symbol;
+    }
+
     private String symbol;
 
     private String weatherImage;
