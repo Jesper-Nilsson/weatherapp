@@ -2,11 +2,18 @@ package se.miun.dt170g;
 
 import android.util.Pair;
 
-public class Weather {
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
 
+@Root(name = "location", strict = false)
+public class Weather {
+    @Element(name="temperature")
     private double temprature;
+    @Element(name="windSpeed")
     private double windSpeed;
+    @Element(name="windDirection")
     private String windDirection;
+    @Element(name="cloudiness")
     private double cloudiness;
     private Pair<Double, Double> precipitation;
 
