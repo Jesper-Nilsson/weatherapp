@@ -3,6 +3,7 @@ package se.miun.dt170g;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Pair;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,7 +25,16 @@ public class MainActivity extends AppCompatActivity {
         tvCloudiness = findViewById(R.id.tvCloudiness);
         tvPrecipitation = findViewById(R.id.tvPrecipitation);
         imageView = findViewById(R.id.ivCloud); // Correct initialization of ImageView
-        button = findViewById(R.id.btnRefresh); // Correct initialization of Button
+        button = findViewById(R.id.btnRefresh);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Handle the refresh action here
+                fetchWeatherData(); // You can call your data fetching method here
+            }
+        });
+
 
         fetchWeatherData();
     }
