@@ -10,6 +10,8 @@ public class Weather {
     private double cloudiness;
     private Pair<Double, Double> precipitation;
 
+    private String symbol;
+
     private String weatherImage;
 
     public Weather(double temprature, double windSpeed, String windDirection, double cloudiness, Pair<Double, Double> precipitation) {
@@ -22,7 +24,44 @@ public class Weather {
     }
 
     private void chooseWeatherImage(){
+        /**
+         * 0-20% no cloud
+         * 20-60 medium cloud
+         * 60-100 heavy cloudy
+         *
+         * < 0.5 no rain
+         * 0.5 - 2.5 light rain
+         * 2.5 - 7.5 medium rain
+         * > 7.5 heavy rain
+         */
+        double avgRain = (precipitation.first + precipitation.second) /2;
+        String filename;
 
+
+        if (cloudiness < 20) {
+            filename = "noCloud";
+        }
+        else if(cloudiness >= 20 && cloudiness < 60) {
+            filename = "mediumCloud";
+        }
+        else {
+            filename = "heavyCloud";
+        }
+
+        if(avgRain <= 0.5) {
+            filename += "noRain";
+
+        } else if(avgRain <= 2.5) {
+            filename += "lightRain";
+
+        } else if(avgRain <= 7.5) {
+            filename += "mediumRain";
+
+        } else {
+            filename += "heavyRain";
+        }
+
+        this.weatherImage = filename  + ".png";
     }
 
     public double getTemprature() {
