@@ -1,74 +1,406 @@
 [
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysnowshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysnowshowers_night.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/xml_data_extraction_rules.xml.flat",
-        "source": "se.miun.dt170g.app-main-30:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_partlycloudy_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\partlycloudy_polartwilight.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_fair_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\fair_polartwilight.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/xml_backup_rules.xml.flat",
-        "source": "se.miun.dt170g.app-main-30:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_sleetshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\sleetshowers_polartwilight.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysnowshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysnowshowersandthunder_day.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavyrainshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavyrainshowersandthunder_night.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_snowshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\snowshowersandthunder_polartwilight.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightrainshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightrainshowersandthunder_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_rainshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\rainshowersandthunder_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_sleet.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\sleet.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_snowshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\snowshowersandthunder_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_clearsky_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\clearsky_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_clearsky_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\clearsky_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_snowandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\snowandthunder.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_rainshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\rainshowersandthunder_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_snowshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\snowshowersandthunder_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysleetshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysleetshowersandthunder_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_rainshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\rainshowersandthunder_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightssnowshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightssnowshowersandthunder_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysnowshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysnowshowers_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavyrainandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavyrainandthunder.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_sleetandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\sleetandthunder.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsleetandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsleetandthunder.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_snowshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\snowshowers_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsleetshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsleetshowers_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysnowshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysnowshowers_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightrainandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightrainandthunder.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightrainshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightrainshowers_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightssleetshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightssleetshowersandthunder_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_rainshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\rainshowers_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_sleetshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\sleetshowersandthunder_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightrainshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightrainshowers_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavyrainshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavyrainshowersandthunder_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_snow.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\snow.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_fair_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\fair_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_rain.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\rain.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysnowandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysnowandthunder.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsleetshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsleetshowers_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_partlycloudy_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\partlycloudy_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysleetshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysleetshowers_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysnowshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysnowshowersandthunder_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightrainshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightrainshowersandthunder_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavyrainshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavyrainshowers_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightssleetshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightssleetshowersandthunder_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_partlycloudy_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\partlycloudy_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysleetshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysleetshowersandthunder_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_fair_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\fair_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightssnowshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightssnowshowersandthunder_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsnow.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsnow.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsleet.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsleet.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_rainshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\rainshowers_night.png"
     },
     {
         "merged": "se.miun.dt170g.app-merged_res-28:/layout_activity_main.xml.flat",
         "source": "se.miun.dt170g.app-main-30:/layout/activity_main.xml"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysleetshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysleetshowers_night.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_rainandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\rainandthunder.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "se.miun.dt170g.app-main-30:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightssleetshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightssleetshowersandthunder_day.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
-        "source": "se.miun.dt170g.app-main-30:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavyrainshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavyrainshowers_day.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavyrainshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavyrainshowersandthunder_polartwilight.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/drawable_snow.png.flat",
-        "source": "se.miun.dt170g.app-main-30:/drawable/snow.png"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_fog.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\fog.png"
     },
     {
-        "merged": "se.miun.dt170g.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "se.miun.dt170g.app-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_rainshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\rainshowers_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysleetandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysleetandthunder.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightrainshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightrainshowersandthunder_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavyrain.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavyrain.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_sleetshowersandthunder_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\sleetshowersandthunder_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysnowshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysnowshowersandthunder_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightrainshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightrainshowers_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_clearsky_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\clearsky_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavyrainshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavyrainshowers_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysnow.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysnow.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_sleetshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\sleetshowers_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsnowshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsnowshowers_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_sleetshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\sleetshowersandthunder_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightssnowshowersandthunder_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightssnowshowersandthunder_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightrain.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightrain.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_sleetshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\sleetshowers_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsnowshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsnowshowers_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysleet.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysleet.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsnowshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsnowshowers_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_snowshowers_day.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\snowshowers_day.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsnowandthunder.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsnowandthunder.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysleetshowersandthunder_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysleetshowersandthunder_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_snowshowers_night.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\snowshowers_night.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_cloudy.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\cloudy.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_heavysleetshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\heavysleetshowers_polartwilight.png"
+    },
+    {
+        "merged": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-merged_res-28:\\drawable_lightsleetshowers_polartwilight.png.flat",
+        "source": "C:\\Users\\amana\\AndroidStudioProjects\\daemon\\8.2\\se.miun.dt170g.app-main-30:\\drawable\\lightsleetshowers_polartwilight.png"
     }
 ]
