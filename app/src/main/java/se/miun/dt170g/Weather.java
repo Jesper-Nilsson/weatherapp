@@ -5,7 +5,7 @@ import android.util.Pair;
 
 public class Weather {
 
-    private double temprature;
+    private double temperature;
     private double windSpeed;
     private String windDirection;
     private double cloudiness;
@@ -15,13 +15,17 @@ public class Weather {
 
     private String weatherImage;
 
-    public Weather(double temprature, double windSpeed, String windDirection, double cloudiness, Pair<Double, Double> precipitation) {
-        this.temprature = temprature;
+    public Weather(double temperature, double windSpeed, String windDirection, double cloudiness, Pair<Double, Double> precipitation) {
+        this.temperature = temperature;
         this.windSpeed = windSpeed;
         this.windDirection = windDirection;
         this.cloudiness = cloudiness;
         this.precipitation = precipitation;
         chooseWeatherImage();
+    }
+
+    public Weather() {
+
     }
 
     private void chooseWeatherImage(){
@@ -65,12 +69,12 @@ public class Weather {
         this.weatherImage = filename  + ".png";
     }
 
-    public double getTemprature() {
-        return temprature;
+    public double getTemperature() {
+        return temperature;
     }
 
-    public void setTemprature(double temprature) {
-        this.temprature = temprature;
+    public void setTemperature(double temperature) {
+        this.temperature = temperature;
     }
 
     public double getWindSpeed() {
@@ -103,5 +107,9 @@ public class Weather {
 
     public void setPrecipitation(Pair<Double, Double> precipitation) {
         this.precipitation = precipitation;
+    }
+
+    public void setSymbol(String name) {
+        this.symbol = name;
     }
 }
