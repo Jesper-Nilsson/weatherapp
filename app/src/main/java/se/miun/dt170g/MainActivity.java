@@ -64,6 +64,34 @@ public class MainActivity extends AppCompatActivity {
         tvCloudiness.setText(getString(R.string.cloudiness_value, staticCloudiness));
         tvPrecipitation.setText(getString(R.string.precipitation_value, staticPrecipitation.first, staticPrecipitation.second));
     }
+
+
+
+    private void fetchWeatherData2() {
+        // Example static values for debugging
+        double staticTemperature = 16.2;
+        double staticWindSpeed = 5.5;
+        String staticWindDirection = "NE";
+        double staticCloudiness = 65.3;
+        Pair<Double, Double> staticPrecipitation = new Pair<>(1.2, 3.4);
+
+        // Example of setting an image based on a condition
+        String imageName = "snow"; // The name of the image, without extension
+        int resourceId = getResources().getIdentifier(imageName, "drawable", getPackageName());
+        if (resourceId != 0) { // 0 means no resource found
+            imageView.setImageResource(resourceId);
+        } else {
+            // Handle the case where the resource is not found
+            // For example, set a default image
+            imageView.setImageResource(R.drawable.fog); // Replace with your default image
+        }
+
+        // Set texts of TextViews
+        tvTemperature.setText(getString(R.string.temperature_value, staticTemperature));
+        tvWindSpeed.setText(getString(R.string.windspeed_value, staticWindSpeed, staticWindDirection));
+        tvCloudiness.setText(getString(R.string.cloudiness_value, staticCloudiness));
+        tvPrecipitation.setText(getString(R.string.precipitation_value, staticPrecipitation.first, staticPrecipitation.second));
+    }
 }
 
 
