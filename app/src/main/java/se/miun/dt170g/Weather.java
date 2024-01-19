@@ -8,7 +8,7 @@ import org.simpleframework.xml.Root;
 @Root(name = "location", strict = false)
 public class Weather {
     @Element(name="temperature")
-    private double temprature;
+    private double temperature;
     @Element(name="windSpeed")
     private double windSpeed;
     @Element(name="windDirection")
@@ -19,8 +19,8 @@ public class Weather {
 
     private String weatherImage;
 
-    public Weather(double temprature, double windSpeed, String windDirection, double cloudiness, Pair<Double, Double> precipitation) {
-        this.temprature = temprature;
+    public Weather(double temperature, double windSpeed, String windDirection, double cloudiness, Pair<Double, Double> precipitation) {
+        this.temperature = temperature;
         this.windSpeed = windSpeed;
         this.windDirection = windDirection;
         this.cloudiness = cloudiness;
@@ -32,12 +32,12 @@ public class Weather {
 
     }
 
-    public double getTemprature() {
-        return temprature;
+    public double getTemperature() {
+        return temperature;
     }
 
-    public void setTemprature(double temprature) {
-        this.temprature = temprature;
+    public void setTemperature(double temperature) {
+        this.temperature = temperature;
     }
 
     public double getWindSpeed() {

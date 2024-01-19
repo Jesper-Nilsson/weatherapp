@@ -7,13 +7,13 @@ import se.miun.dt170g.Weather;
 
 
 public interface FetchWeather {
-    @GET("classic")
+    @GET("/weatherapi/locationforecast/2.0/classic")
     Call<Weather> getWeather(@Query("lat") double latitude,
                              @Query("lon") double longitude,
                              @Query("altitude") int altitude);
 }
 
 
-
+//c?lat=59.93&lon=10.72&altitude=90
 
 
