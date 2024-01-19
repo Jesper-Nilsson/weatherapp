@@ -12,9 +12,21 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import android.util.Log;
+
 public class WeatherApiFetcher {
+    private Handler handler;
+    private String url;
+    private WeatherListener weatherListener;
 
-
+    public WeatherApiFetcher(Handler handler, String url, WeatherListener listener){
+        this.handler = handler;
+        this.url = url;
+        this.weatherListener = listener;
+    }
+    public interface WeatherListener {
+        void onWeatherFetched(Weather weather);
+        void onWeatherFetchFailed(Exception e);
+    }
 
     public void fetchAndParseWeatherData(String urlString) {
         new Thread(() -> {
@@ -42,10 +54,18 @@ public class WeatherApiFetcher {
                     Log.d("WeatherData", "rain max: " + weather.getPrecipitation().second);
                     Log.d("WeatherData", "symbol: " + weather.getSymbol());
                     // Update UI with weather object (on the main thread)
+                    handler.post(() -> {
+                        weatherListener.onWeatherFetched(weather);
+                        // Update UI or handle weather object on main thread
+                        // Example: updateWeatherUI(weather);
+                    });
                 } else {
                     Log.e("WeatherData", "HTTP error response: " + responseCode);
                 }
             } catch (Exception e) {
+                handler.post(() -> {
+                    weatherListener.onWeatherFetchFailed(e);
+                });
                 e.printStackTrace();
                 // Handle errors appropriately
             } finally {
