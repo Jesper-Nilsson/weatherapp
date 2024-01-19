@@ -2,9 +2,16 @@ package se.miun.dt170g;
 
 import android.util.Pair;
 
+
+/**
+ * Authors: Lucas Persson, Jesper Nilsson
+ * Description: The weather class represent the current state of the weather including temperature,
+ * wind speed, wind direction, cloudiness, and minimum and maximum expected rain together with a symbol to
+ * a corresponding image for the weather state
+ */
 public class Weather {
 
-    private double temprature;
+    private double temperature;
     private double windSpeed;
     private String windDirection;
     private double cloudiness;
@@ -14,12 +21,17 @@ public class Weather {
 
     private String weatherImage;
 
-    public Weather(double temprature, double windSpeed, String windDirection, double cloudiness, Pair<Double, Double> precipitation) {
-        this.temprature = temprature;
+    /**
+     * The Weather constructor, assigning all the variables
+
+     */
+    public Weather(double temperature, double windSpeed, String windDirection, double cloudiness, Pair<Double, Double> precipitation, String symbol) {
+        this.temperature = temperature;
         this.windSpeed = windSpeed;
         this.windDirection = windDirection;
         this.cloudiness = cloudiness;
         this.precipitation = precipitation;
+        this.symbol = symbol;
         chooseWeatherImage();
     }
 
@@ -64,12 +76,12 @@ public class Weather {
         this.weatherImage = filename  + ".png";
     }
 
-    public double getTemprature() {
-        return temprature;
+    public double getTemperature() {
+        return temperature;
     }
 
-    public void setTemprature(double temprature) {
-        this.temprature = temprature;
+    public void setTemperature(double temperature) {
+        this.temperature = temperature;
     }
 
     public double getWindSpeed() {
@@ -103,4 +115,10 @@ public class Weather {
     public void setPrecipitation(Pair<Double, Double> precipitation) {
         this.precipitation = precipitation;
     }
+    
 }
+
+
+
+
+
