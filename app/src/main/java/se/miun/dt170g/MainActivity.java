@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Handle the refresh action here
-                fetchWeatherData(); // You can call your data fetching method here
+                fetchWeatherData2(); // You can call your data fetching method here
             }
         });
 
