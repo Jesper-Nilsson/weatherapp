@@ -3,21 +3,28 @@ package se.miun.dt170g;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Pair;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView tvTemperature, tvWindSpeed, tvCloudiness, tvPrecipitation;
+    ImageView imageView = (ImageView) findViewById(R.id.ivCloud);
+
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+// ivCloud
         tvTemperature = findViewById(R.id.tvTemperature);
         tvWindSpeed = findViewById(R.id.tvWindSpeed);
         tvCloudiness = findViewById(R.id.tvCloudiness);
+
         tvPrecipitation = findViewById(R.id.tvPrecipitation);
+        button.findViewById(R.id.btnRefresh);
 
         fetchWeatherData();
     }
@@ -29,10 +36,22 @@ public class MainActivity extends AppCompatActivity {
         double staticCloudiness = 65.3;
         Pair<Double, Double> staticPrecipitation = new Pair<>(1.2, 3.4);
 
+        String imageName = "clearsky_day"; // The name of the image, without extension
+        int resourceId = getResources().getIdentifier(imageName, "drawable", getPackageName());
+        if (resourceId != 0) { // 0 means no resource found
+            imageView.setImageResource(resourceId);
+        } else {
+            // Handle the case where the resource is not found
+
+        }
+
         tvTemperature.setText(getString(R.string.temperature_value, staticTemperature));
         tvWindSpeed.setText(getString(R.string.windspeed_value, staticWindSpeed, staticWindDirection));
         tvCloudiness.setText(getString(R.string.cloudiness_value, staticCloudiness));
         tvPrecipitation.setText(getString(R.string.precipitation_value, staticPrecipitation.first, staticPrecipitation.second));
+
+
+
     }
 }
 
