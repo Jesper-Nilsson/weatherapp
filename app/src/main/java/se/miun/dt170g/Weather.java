@@ -10,6 +10,8 @@ public class Weather {
     private double cloudiness;
     private Pair<Double, Double> precipitation;
 
+    private String symbol;
+
     private String weatherImage;
 
     public Weather(double temprature, double windSpeed, String windDirection, double cloudiness, Pair<Double, Double> precipitation) {
