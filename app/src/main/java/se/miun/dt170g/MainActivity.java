@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 fetcher.fetchAndParseWeatherData();
                 // Handle the refresh action here
-                 // You can call your data fetching method here
+                // You can call your data fetching method here
             }
         });
 
@@ -73,4 +73,3 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
-

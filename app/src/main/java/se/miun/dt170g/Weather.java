@@ -4,7 +4,6 @@ package se.miun.dt170g;
 import android.util.Pair;
 
 public class Weather {
-
     private double temperature;
     private double windSpeed;
     private String windDirection;
