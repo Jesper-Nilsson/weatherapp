@@ -20,8 +20,16 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onWeatherFetched(Weather weather) {
+             String temperatur = "Temperarure: " + weather.getTemperature() + "Celsious";
+             String WindSpeed = "WindSpeed: " + weather.getWindSpeed() + " mps, towards " + weather.getWindDirection();
+             String Clouddiness = "Cloudiness " + weather.getCloudiness() + " % ";
+             String Precipitation = "Precipitation: Between " + weather.getPrecipitation().first + " mm and " + weather.getPrecipitation().second + " mm ";
 
-            tvTemperature.setText(""+ weather.getTemperature());
+
+            tvTemperature.setText(""+ temperatur);
+            tvWindSpeed.setText(""+ WindSpeed);
+            tvCloudiness.setText(""+Clouddiness);
+            tvPrecipitation.setText(""+Precipitation);
         }
 
         @Override
