@@ -4,7 +4,7 @@
             "outputFile": "se.miun.dt170g.app-mergeDebugResources-26:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\amana\\AndroidStudioProjects\\caches\\transforms-3\\a43aafed36de94ddbd54fecba4515b53\\transformed\\material-1.9.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\ingel\\.gradle\\caches\\transforms-3\\a43aafed36de94ddbd54fecba4515b53\\transformed\\material-1.9.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
