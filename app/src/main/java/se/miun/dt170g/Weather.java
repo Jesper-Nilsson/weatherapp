@@ -1,5 +1,12 @@
 
 package se.miun.dt170g;
+/**
+ * @Authors: Lucas Persson, Jesper Nilsson
+ *
+ * @Description: The weather class represent the current state of the weather including temperature,
+ * wind speed, wind direction, cloudiness, and minimum and maximum expected rain together with a symbol to
+ * a corresponding image for the weather state
+ */
 
 import android.util.Pair;
 

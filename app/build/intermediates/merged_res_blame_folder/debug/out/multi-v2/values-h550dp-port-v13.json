@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "se.miun.dt170g.app-mergeDebugResources-26:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "se.miun.dt170g.app-mergeDebugResources-2:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\amana\\AndroidStudioProjects\\caches\\transforms-3\\a43aafed36de94ddbd54fecba4515b53\\transformed\\material-1.9.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\jespe\\AndroidStudioProjects\\weatherapp\\caches\\transforms-3\\a43aafed36de94ddbd54fecba4515b53\\transformed\\material-1.9.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

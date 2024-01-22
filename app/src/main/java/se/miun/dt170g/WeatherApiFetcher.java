@@ -1,4 +1,9 @@
 package se.miun.dt170g;
+/**
+ * @author Jesper, Lucas
+ * @modified 2024-01-22
+ * @description this class fetches and creates a weather object from an api, communicates using a handler
+ */
 
 import android.os.Handler;
 import android.util.Pair;
@@ -45,20 +50,18 @@ public class WeatherApiFetcher {
                     stream = connection.getInputStream();
                     Weather weather = parseXML(stream);
 
-                    // Assuming 'Log' and 'Weather' classes are defined and working
+
                     Log.d("WeatherData", "Wind Direction: " + weather.getWindDirection());
                     Log.d("WeatherData", "temprature: " + weather.getTemperature());
                     Log.d("WeatherData", "Wind spped: " + weather.getWindSpeed());
                     Log.d("WeatherData", "cloudiness: " + weather.getCloudiness());
-                    Log.d("WeatherData", "symbol: " + weather.getSymbol());
                     Log.d("WeatherData", "rain min: " + weather.getPrecipitation().first);
                     Log.d("WeatherData", "rain max: " + weather.getPrecipitation().second);
                     Log.d("WeatherData", "symbol: " + weather.getSymbol());
                     // Update UI with weather object (on the main thread)
                     handler.post(() -> {
                         weatherListener.onWeatherFetched(weather);
-                        // Update UI or handle weather object on main thread
-                        // Example: updateWeatherUI(weather);
+
                     });
                 } else {
                     Log.e("WeatherData", "HTTP error response: " + responseCode);
@@ -68,7 +71,7 @@ public class WeatherApiFetcher {
                     weatherListener.onWeatherFetchFailed(e);
                 });
                 e.printStackTrace();
-                // Handle errors appropriately
+                // Handle errors
             } finally {
                 if (stream != null) {
                     try {
@@ -92,46 +95,57 @@ public class WeatherApiFetcher {
         parser.setInput(stream, null);
 
         Weather weather = new Weather();
-        int forecastCounter = 0;
+
+        boolean temperatureSet = false, windDirectionSet = false, windSpeedSet = false,
+                cloudinessSet = false, precipitationSet = false, symbolSet = false;
+
 
         int eventType = parser.getEventType();
         while (eventType != XmlPullParser.END_DOCUMENT) {
             String tagName = parser.getName();
-            switch (eventType) {
-                case XmlPullParser.START_TAG:
-                    if (tagName.equals("time")) {
-                        String dataType = parser.getAttributeValue(null, "datatype");
-                        if ("forecast".equals(dataType)) {
-                            forecastCounter++;
+            if (eventType == XmlPullParser.START_TAG) {
+                switch (tagName) {
+                    case "temperature":
+                        if (!temperatureSet) {
+                            weather.setTemperature(Double.parseDouble(parser.getAttributeValue(null, "value")));
+                            temperatureSet = true;
                         }
-                    } else if (forecastCounter == 1) { // First <time> element with forecast
-                        switch (tagName) {
-                            case "temperature":
-                                weather.setTemperature(Double.parseDouble(parser.getAttributeValue(null, "value")));
-                                break;
-                            case "windDirection":
-                                weather.setWindDirection(parser.getAttributeValue(null, "name"));
-                                break;
-                            case "windSpeed":
-                                weather.setWindSpeed(Double.parseDouble(parser.getAttributeValue(null, "mps")));
-                                break;
-                            case "cloudiness":
-                                weather.setCloudiness(Double.parseDouble(parser.getAttributeValue(null, "percent")));
-                                break;
+                        break;
+                    case "windDirection":
+                        if (!windDirectionSet) {
+                            weather.setWindDirection(parser.getAttributeValue(null, "name"));
+                            windDirectionSet = true;
                         }
-                    } else if (forecastCounter == 2) { // Third <time> element with forecast
-                        switch (tagName) {
-                            case "precipitation":
-                                double precipitationValue = Double.parseDouble(parser.getAttributeValue(null, "value"));
-                                weather.setPrecipitation(new Pair<>(precipitationValue, precipitationValue)); // Adapt as needed
-                                break;
-                            case "symbol":
-                                weather.setSymbol(parser.getAttributeValue(null, "id"));
-                                break;
+                        break;
+                    case "windSpeed":
+                        if (!windSpeedSet) {
+                            weather.setWindSpeed(Double.parseDouble(parser.getAttributeValue(null, "mps")));
+                            windSpeedSet = true;
                         }
-                    }
-                    break;
+                        break;
+                    case "cloudiness":
+                        if (!cloudinessSet) {
+                            weather.setCloudiness(Double.parseDouble(parser.getAttributeValue(null, "percent")));
+                            cloudinessSet = true;
+                        }
+                        break;
+                    case "precipitation":
+                        if (!precipitationSet) {
+                            double minPrecipitationValue = Double.parseDouble(parser.getAttributeValue(null, "minvalue"));
+                            double maxPrecipitationValue = Double.parseDouble(parser.getAttributeValue(null, "maxvalue"));
+                            weather.setPrecipitation(new Pair<>(minPrecipitationValue, maxPrecipitationValue));
+                            precipitationSet = true;
+                        }
+                        break;
+                    case "symbol":
+                        if (!symbolSet) {
+                            weather.setSymbol(parser.getAttributeValue(null, "id"));
+                            symbolSet = true;
+                        }
+                        break;
+                }
             }
+
             eventType = parser.next();
         }
 
