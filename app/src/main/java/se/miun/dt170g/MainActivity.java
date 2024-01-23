@@ -11,6 +11,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/*
+
+
+Koray Aman Arabzadeh and Ingela Holmkvist were instrumental in developing the core features of the application's main Activity page.
+Our responsibilities included designing the page layout, implementing image loading mechanisms, and creating a refresh button.
+Additionally, we focused on displaying real-time data on the screen,
+particularly live updates from the API for weather changes, ensuring an interactive and up-to-date user experience.
+
+
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView tvTemperature, tvWindSpeed, tvCloudiness, tvPrecipitation;
